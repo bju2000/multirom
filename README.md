@@ -13,9 +13,7 @@ XDA threads:
 ###Sources
 MultiROM uses git submodules, so you need to clone them as well:
 
-    git clone https://github.com/Tasssadar/multirom.git system/extras/multirom
-    cd system/extras/multirom
-    git submodule update --init
+git clone --recursive https://github.com/Tasssadar/multirom.git system/extras/multirom
 
 It also needs libbootimg:
 
